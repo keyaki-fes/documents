@@ -1,0 +1,94 @@
+---
+slug: first-blog-post
+title: "Hello,Docusaurus!!"
+authors: eno1220
+tags: [introduction]
+---
+
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
+## はじめに
+
+こんにちは、IT 管理部副部長の **eno1220** です。このたび、Docusaurus という Meta 社の OSS を使用して、IT 管理部のドキュメントを作成することとしました。
+React ベースで開発されており、`node` と `npm` や `yarn` などのパッケージマネージャのみで使用できるため、採用することにしました。
+
+## ローカルでの編集方法
+
+はじめに、このドキュメントを管理しているリポジトリから clone します。なお、アクセス権が必要ですので、お持ちでない場合は、admin まで連絡をしてください。
+
+```bash
+git clone git@github.com:keyaki-fes/documents.git
+cd documents
+```
+
+clone してリポジトリに移動したら、パッケージをインストールします。
+
+```mdx-code-block
+<Tabs>
+<TabItem value="npm">
+```
+
+```bash
+npm install
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="yarn">
+```
+
+```bash
+yarn install
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+インストールしたら以下のコマンドを実行すると、 [localhost://3000](http://localhost:3000/) でプレビューすることができるようになります。
+
+```mdx-code-block
+<Tabs>
+<TabItem value="npm">
+```
+
+```bash
+npm run start
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="yarn">
+```
+
+```bash
+yarn run start
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
+
+## このドキュメントの活用方針に関して
+
+現在、以下のような活用ができるといいなと感じています。
+
+- 各プロジェクトのドキュメント
+- プロジェクト外で作成した書類・ポスター等の一覧
+- メンバー育成に使用した教材
+- 各言語のノウハウ共有
+- 文化祭運営のノウハウ共有
+
+:::caution
+このドキュメントに、個人情報などのセンシティブな情報を掲載しないでください。
+また、IT 管理部共通のルールは Discord の `#rules` チャンネルにありますので一読してください。
+:::
+
+なお、さらなる詳細は、以下の公式ドキュメントからご覧ください。なお、随時使用方法等を追記していく予定です。
+
+[公式ドキュメント](https://docusaurus.io/docs)
