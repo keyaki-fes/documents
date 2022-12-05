@@ -8,11 +8,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "けやき祭実行委員会 IT管理部ドキュメント",
   tagline: "Document for IT management department",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://keyaki-fes.github.io/",
+  baseUrl: "/documents/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
