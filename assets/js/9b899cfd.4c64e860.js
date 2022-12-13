@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocuments=self.webpackChunkdocuments||[]).push([[153],{7736:o=>{o.exports=JSON.parse('[{"label":"markdown","permalink":"/documents/blog/tags/markdown","count":1},{"label":"markdown editor","permalink":"/documents/blog/tags/markdown-editor","count":1},{"label":"introduction","permalink":"/documents/blog/tags/introduction","count":1}]')}}]);

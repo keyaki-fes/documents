@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://keyaki-fes.github.io/documents/blog</id>
     <title>けやき祭実行委員会 IT管理部ドキュメント Blog</title>
-    <updated>2022-12-05T00:00:00.000Z</updated>
+    <updated>2022-12-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://keyaki-fes.github.io/documents/blog"/>
     <subtitle>けやき祭実行委員会 IT管理部ドキュメント Blog</subtitle>
     <icon>https://keyaki-fes.github.io/documents/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[マークダウンエディタを作りました]]></title>
+        <id>created-markdown-edior</id>
+        <link href="https://keyaki-fes.github.io/documents/blog/created-markdown-edior"/>
+        <updated>2022-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IT 管理部の使用しているサービスでは Markdown 記法を使用するものが多くあります。（Discord、GitHub、本ドキュメントなど）]]></summary>
+        <content type="html"><![CDATA[<p>IT 管理部の使用しているサービスでは Markdown 記法を使用するものが多くあります。（Discord、GitHub、本ドキュメントなど）
+しかし、Markdown 記法に慣れない生徒が多いことや Markdown をローカル PC に用意する必要があることから、今回独自のマークダウンエディタを作成しました。</p><p><a href="https://keyaki-fes.github.io/markdown-editor/" target="_blank" rel="noopener noreferrer">Keyaki Fes Markdown Editor</a></p><p><img loading="lazy" src="/documents/assets/images/markdown-editor-503922d80d6ac9bea8a04df41a6845eb.png" width="3360" height="1828" class="img_ev3q"></p><h1>概要</h1><p>Markdown 記法にはさまざまな「方言」がありますが、本エディタでは技術ブログサイトである <a href="https://zenn.dev" target="_blank" rel="noopener noreferrer">zenn</a> による記法を採用しています。これは、 zenn の開発したパーサーを内部的に使用しているためです。詳細な記法は以下をご覧ください。ただし、zenn 独自の記法として、「コンテンツの埋め込み」が紹介されていますが、現時点では対応していませんので注意してください。</p><p><a href="https://zenn.dev/zenn/articles/markdown-guide" target="_blank" rel="noopener noreferrer">zenn の記法を解説した記事</a></p><p>画面では入力と同時に生成されたものをプレビューすることができるようになっています。なお、モバイルビューではボタンで切り替える方式になっています。</p><p>入力された情報はブラウザの LocalStorage に自動で保存されるため再読み込みを行っても消えることがありません。作成したものは「Download」ボタンからローカルに保存できますし、「Upload」ボタンから読み込むこともできます。</p><h1>技術スタック</h1><p>フレームワークに Next.js、UI フレームワークとして TailwindCSS を使用しています。
+デプロイ先は GitHub Pages であり、GitHub Actions を使用して自動デプロイを実現しています。</p><p>Markdown のパースには zenn-markdown-html 、レイアウト調整に zenn-content-css を使用しています。</p><p>ソースコードは GitHub にて公開しています。バグ報告や新規機能提案は issue か Discord サーバの <code>Discussion</code>チャンネルにお願いします。</p><p><a href="https://github.com/keyaki-fes/markdown-editor" target="_blank" rel="noopener noreferrer">keyaki-fes/markdown-editor</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="参考資料">参考資料<a class="hash-link" href="#参考資料" title="この見出しへのリンク">​</a></h2><ul><li><a href="https://zenn.dev/team_zenn/articles/intro-zenn-markdown" target="_blank" rel="noopener noreferrer">Next.js 製 個人ブログに zenn-markdown-html と zenn-content-css を導入する</a></li><li><a href="https://github.com/zenn-dev/zenn-editor" target="_blank" rel="noopener noreferrer">zenn-dev/zenn-editor</a></li></ul>]]></content>
+        <author>
+            <name>eno1220</name>
+            <uri>https://github.com/eno1220</uri>
+        </author>
+        <category label="markdown" term="markdown"/>
+        <category label="markdown editor" term="markdown editor"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello,Docusaurus!!]]></title>
         <id>first-blog-post</id>
