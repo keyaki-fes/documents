@@ -22,16 +22,8 @@ jobs:
           cache: yarn
           cache-dependency-path: ./package-lock.json
 
-      - name: cache node_modules
-        id: node_modules_cache_id
-        uses: actions/cache@v2
-        with:
-          path: |
-            node_modules
-          key: node-${{ matrix.node-version }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
-
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile --prefer-offline
       - name: Build website
         run: yarn build
 
