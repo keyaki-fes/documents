@@ -1,41 +1,24 @@
-# Website
+# Keyaki-fes/documents
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## このリポジトリは?
 
-### Installation
+けやき祭実行委員会 IT 管理部のドキュメントです.
+初心者向け教材やナレッジ共有・プロジェクトのドキュメントを記述しています.
 
-```
-$ yarn
-```
+https://keyaki-fes.github.io/documents/
 
-### Local Development
+## 開発方法
 
-```
-$ yarn start
-```
+この web サイトは、静的サイトジェネレータである [Docusaurus 2](https://docusaurus.io/) を使用しています.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### 開発手順
 
-### Build
+1. Node.js と Yarn をインストールします.
+2. このリポジトリを Clone します.
+3. `yarn install --frozen-lockfile` で依存パッケージをインストールします.
+4. `yarn start` でローカルサーバを立ち上げます.
 
-```
-$ yarn build
-```
+### デプロイ
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+このサイトは GitHub Actions により自動で GitHub Pages へデプロイされています.
+main ブランチへ`git push`すると実行されます.
