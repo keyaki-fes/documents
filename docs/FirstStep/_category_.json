@@ -1,0 +1,8 @@
+{
+  "label": "FirstStep",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "はじめてのwebプログラミング学習."
+  }
+}
