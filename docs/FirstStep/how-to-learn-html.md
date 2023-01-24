@@ -47,6 +47,10 @@ https://prog-8.com/
 
 HTML&CSS , JavaScript , Command Line , Git , React コースを学習すると良いです。
 
+https://prog-8.com/lessons/info
+
+なお、初級編や初めの章に関しては無料で閲覧することもできます。
+
 https://www.nnn.ed.nico/
 
 また、上記の N 予備校もおすすめです。プログラミングのみならずオンライン授業等も受講できます。
