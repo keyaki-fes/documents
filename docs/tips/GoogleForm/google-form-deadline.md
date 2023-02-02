@@ -1,6 +1,6 @@
 ---
 title: "Google Formの回答を自動で締め切る"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Google Form はデフォルトでは回答の締め切り時刻を設定することができません。
