@@ -91,7 +91,6 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Koga Secondary School - Keyaki Festival IT management department`,
       },
-      image: "img/logo.png",
       prism: {
         theme: require("prism-react-renderer/themes/github"),
         darkTheme: require("prism-react-renderer/themes/dracula"),
