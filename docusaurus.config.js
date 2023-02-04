@@ -59,7 +59,7 @@ const config = {
         title: "Keyakifes Docs",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
         items: [
           {
@@ -86,18 +86,15 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/keyaki-fes",
               },
-              {
-                label: "Koga Secondary School",
-                href: "https://www.koga-cs.ibk.ed.jp/",
-              },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Koga Secondary School - Keyaki Festival IT management department`,
       },
+      image: "img/logo.png",
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: require("prism-react-renderer/themes/github"),
+        darkTheme: require("prism-react-renderer/themes/dracula"),
       },
     }),
 };
