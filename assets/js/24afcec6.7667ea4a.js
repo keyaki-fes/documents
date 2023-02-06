@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocuments=self.webpackChunkdocuments||[]).push([[8094],{8235:e=>{e.exports=JSON.parse('{"label":"markdown editor","permalink":"/documents/blog/tags/markdown-editor","allTagsPath":"/documents/blog/tags","count":1}')}}]);
